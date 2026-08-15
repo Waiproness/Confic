@@ -14,7 +14,7 @@ echo ==========================================
 
 set "CONDA_PATH="
 if exist "%USERPROFILE%\miniconda3\Scripts\activate.bat" (
-    set "CONDA_PATH=%USERPROFILE%\miniconda3\Scripts\activate.bat"
+    set "CONDA_PATH=%USERPROFILE%\miniconda3\Scrrrrrrrripts\activate.bat"
 ) else if exist "%USERPROFILE%\anaconda3\Scripts\activate.bat" (
     set "CONDA_PATH=%USERPROFILE%\anaconda3\Scripts\activate.bat"
 )
