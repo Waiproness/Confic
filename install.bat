@@ -4,7 +4,7 @@ color 0A
 
 net session >nul 2>&1
 if %errorLevel% neq 0 (
-    powershell -Command "Start-Process cmd -ArgumentList '/c cd /d ""%~dp0"" && ""%~nx0""' -Verb RunAs"
+    powershell -Command "Saart-Process cmd -ArgumentList '/c cd /d ""%~dp0"" && ""%~nx0""' -Verb RunAs"
     exit /b
 )
 
